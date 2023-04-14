@@ -1,6 +1,6 @@
 ARG PYTHON_VERSION=3.8.13
 ARG BUILD_BASE=build_admin_ui
-FROM python:${PYTHON_VERSION}-slim-bullseye AS base
+FROM python:${PYTHON_VERSION}-slim-buster AS base
 
 WORKDIR /usr/src/snuba
 
